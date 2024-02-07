@@ -1,6 +1,6 @@
 from mrjob.job import MRStep, MRJob
 
-class MRWordCount(MRJob):
+class PhraseCount(MRJob):
     def map(self, _, line):
         parsed = (line.lower()).replace('"', '').split()[1:]
         yield parsed[0], 1
@@ -23,4 +23,4 @@ class MRWordCount(MRJob):
 
 
 if __name__ == "__main__":
-    MRWordCount.run()
+    PhraseCount.run()
