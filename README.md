@@ -61,3 +61,10 @@ namenode
 ![HW!NN](demo/HW2_Stage3.png)
 
 Было выполнено 4 стейджа, 2 из которых skipped, в каждом стейдже выполнялось по одной таске.
+
+### Блок 2
+
+Решения блока 2 представлены в ноутбуке [notebooks/hw2_spark_part2.ipynb](notebooks/hw2_spark_part2.ipynb)
+
+![demo/HW2_part2.png](demo/HW2_part2.png)
+![demo/HW2_part2b.png](demo/HW2_part2b.png)
